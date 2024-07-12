@@ -1,0 +1,137 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family:'Idroid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0;
+}
+
+.historia{
+    background-color: white;
+    padding: 1px;
+    width: 1050px ;
+    margin: auto;
+}
+
+header{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    background-image:linear-gradient(to bottom,rgb(61, 209, 128),rgba(0, 0, 0, 0.774));
+}
+
+header > nav{
+    text-align: left;
+}
+
+nav > a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.primeiro > h1{
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.primeiro > p{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-indent: 10px ;
+    text-align: justify;
+    margin: 8px;
+}
+
+.segundo > h1{
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.segundo > p{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 7px;
+    text-indent: 10px ;
+    text-align: justify;
+    margin: 8px;
+}
+
+.terceiro > h1{
+    font-family: 'Idroid', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.terceiro > p{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 7px;
+    text-indent: 10px ;
+    text-align: justify;
+    margin: 8px;
+}
+
+.curiosidades{
+    background-color: white;
+    padding: 1px;
+    width: 1050px ;
+    margin: auto;
+}
+
+.quarto{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #71d49c;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.quarto > h1{
+    background-color: #05fc70;
+    border-radius: 5px;
+}
+
+.quarto > p{
+    text-indent: 10px;
+    margin: 8px;
+    padding: 2px;
+}
+
+.paragrafo{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+    margin: 8px;
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+mark{
+    background-image: linear-gradient(to right,rgb(53, 223, 130), rgba(22, 210, 97, 0.56) ); 
+}
+
+footer{
+    background-color: #328556;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+footer > a{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
