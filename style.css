@@ -12,6 +12,10 @@ body{
     margin: 0;
 }
 
+body a:hover{
+    text-decoration: underline;
+}
+
 .historia{
     background-color: white;
     padding: 1px;
@@ -32,11 +36,21 @@ header > nav{
 }
 
 nav > a{
+    font-weight: lighter;
     font-size: 13px;
     color: white;
     text-decoration: none;
     margin: 10px;
 
+}
+
+a{
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 2px;
+}
+a:hover{
+    background-color: #05fc70;
 }
 
 .primeiro > h1{
@@ -56,6 +70,7 @@ nav > a{
     font-family: 'Idroid', Arial, Helvetica, sans-serif;
     font-weight: lighter;
     margin: 10px;
+    background-image: linear-gradient(to right, rgb(53, 223, 130), transparent);
 }
 
 .segundo > p{
@@ -63,13 +78,14 @@ nav > a{
     padding: 7px;
     text-indent: 10px ;
     text-align: justify;
-    margin: 8px;
+    margin: 10px;
 }
 
 .terceiro > h1{
     font-family: 'Idroid', Arial, Helvetica, sans-serif;
     font-weight: lighter;
     margin: 10px;
+    background-image: linear-gradient(to right, rgb(53, 223, 130), transparent);
 }
 
 .terceiro > p{
@@ -77,7 +93,7 @@ nav > a{
     padding: 7px;
     text-indent: 10px ;
     text-align: justify;
-    margin: 8px;
+    margin: 10px;
 }
 
 .curiosidades{
@@ -101,26 +117,20 @@ nav > a{
 
 .quarto > p{
     text-indent: 10px;
-    margin: 8px;
+    margin: 10px;
     padding: 2px;
 }
 
 .paragrafo{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     text-indent: 10px;
-    margin: 8px;
+    margin: 10px;
     padding: 2px;
-}
-
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
 }
 
 mark{
     background-image: linear-gradient(to right,rgb(53, 223, 130), rgba(22, 210, 97, 0.56) ); 
+    border-radius: 2px;
 }
 
 footer{
